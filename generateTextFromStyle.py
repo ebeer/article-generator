@@ -12,7 +12,6 @@ from nltk import NgramModel
 #constants - some may be well suited to command line options
 GENERATED_TEXT_LENGTH = 100
 NGRAM_LENGTH = 2
-URL_START_STRINGS = ['http://','https://']
 
 
 
