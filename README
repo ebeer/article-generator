@@ -1,0 +1,10 @@
+Article Generator
+
+A basic python experiment
+stuctured modularly to extend functionality
+
+-reads in urls from a text file (optionally passed as an argument)
+-tokenizes data and saves to a json output file.
+-generates a new random article based on the style of the input data
+
+default case only recognizes patterns for foxnews, nbcnews and techcruch html articles
