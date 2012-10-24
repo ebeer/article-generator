@@ -26,7 +26,11 @@ def generateContentFromTokens(text_length, ngram_length, token_list):
 
 if __name__ == '__main__':
 
-    filename = "foxNewsInputSet.json"
+    if len(sys.argv) > 1:
+        filename = sys.argv[1]
+    else:
+        filename = 'foxNewsInputSet.json'
+
     #constants 
     GENERATED_TEXT_LENGTH = 400
     GENERATED_TITLE_LENGTH = 10
