@@ -6,6 +6,7 @@ Structured to allow me to explore the language features and learn.
 import json
 import getopt
 import nltk
+import sys
 from nltk import NgramModel
 from nltk.probability import WittenBellProbDist
 
