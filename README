@@ -5,9 +5,19 @@ stuctured modularly to extend functionality
 
 main.py
 -reads in urls from a text file (optionally passed as an argument)
+-default case only recognizes patterns for foxnews, nbcnews and techcruch html articles
 -tokenizes data and saves to a json output file.
 
 generator.py
 -generates a new random article based on the style of the input data (optionally passed as argument)
 
-default case only recognizes patterns for foxnews, nbcnews and techcruch html articles
+cinquain.py
+-generates a random cinquain based on the input data (optionally passed as an argument)
+
+Example Fox News Cenquain:
+
+The Daily Show, 
+an al-Qaida-like group has 
+criticized the land 
+on Comedy Central's 
+leadership in the 
